@@ -113,5 +113,11 @@ yay -S pfetch-rs
 run noctalia
 spawn-at-startup "qs" "-c" "noctalia-shell"
 
+bibata cursor
+yay -S bibata-cursor-theme-bin
+
+papirus icon theme
+git clone https://github.com/PapirusDevelopmentTeam/papirus-icon-theme.git
+
 papirus folder script
 https://github.com/PapirusDevelopmentTeam/papirus-folders
