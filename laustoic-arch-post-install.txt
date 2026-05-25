@@ -53,3 +53,14 @@ sudo pacman -S kdeconnect
 allow kdeconnect from ufw
 sudo ufw allow 1714:1764/udp
 sudo ufw allow 1714:1764/tcp
+
+install falcond
+yay -S falcond falcond-gui
+
+fix falcond group
+sudo groupadd falcond
+sudo usermod -aG falcond laustoic
+
+verify
+groups
+laustoic gamemode libvirt input wheel falcond
