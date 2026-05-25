@@ -85,5 +85,12 @@ chsh -s $(which fish)
 download inter font
 https://fonts.google.com/specimen/Inter
 
+install steam
+sudo pacman -S steam
+
+fix steam error
+cd ~
+rm -rf .steam
+
 install niri
 sudo pacman -Syu niri xwayland-satellite xdg-desktop-portal-gnome xdg-desktop-portal-gtk alacritty matugen cava qt6-multimedia-ffmpeg
