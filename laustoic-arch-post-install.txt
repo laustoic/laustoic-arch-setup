@@ -109,3 +109,6 @@ sudo pacman -Syu niri xwayland-satellite xdg-desktop-portal-gnome xdg-desktop-po
 
 install pfetch-rs
 yay -S pfetch-rs
+
+run noctalia
+spawn-at-startup "qs" "-c" "noctalia-shell"
