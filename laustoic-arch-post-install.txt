@@ -92,5 +92,10 @@ fix steam error
 cd ~
 rm -rf .steam
 
+grub snapshots
+sudo pacman -S grub-btrfs
+sudo systemctl enable --now grub-btrfsd
+
+
 install niri
 sudo pacman -Syu niri xwayland-satellite xdg-desktop-portal-gnome xdg-desktop-portal-gtk alacritty matugen cava qt6-multimedia-ffmpeg
