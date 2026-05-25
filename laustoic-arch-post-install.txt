@@ -137,3 +137,6 @@ flatpak install org.gtk.Gtk3theme.adw-gtk3
 
 install protonplus
 yay -S protonplus
+
+fix missing gnome logout button
+gsettings set org.gnome.shell always-show-log-out true
