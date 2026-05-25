@@ -121,3 +121,9 @@ git clone https://github.com/PapirusDevelopmentTeam/papirus-icon-theme.git
 
 papirus folder script
 https://github.com/PapirusDevelopmentTeam/papirus-folders
+
+system tools
+sudo pacman -S nwg-look wdisplays
+
+GTK and Qt Applications
+yay -S adw-gtk-theme qt6ct
