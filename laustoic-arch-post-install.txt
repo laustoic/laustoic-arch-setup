@@ -16,6 +16,10 @@ yay -S shelly
 install linuxtoys
 curl -fsSL https://linux.toys/install.sh | bash
 
+on linuxtoys, install:
+jetbrainsmono nerd font
+davinci resolve
+
 install goverlay
 sudo pacman -S goverlay
 
@@ -77,6 +81,9 @@ echo "$(which fish)" | sudo tee -a /etc/shells
 
 set fish as your default shell
 chsh -s $(which fish)
+
+download inter font
+https://fonts.google.com/specimen/Inter
 
 install niri
 sudo pacman -Syu niri xwayland-satellite xdg-desktop-portal-gnome xdg-desktop-portal-gtk alacritty matugen cava qt6-multimedia-ffmpeg
