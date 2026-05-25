@@ -122,8 +122,15 @@ git clone https://github.com/PapirusDevelopmentTeam/papirus-icon-theme.git
 papirus folder script
 https://github.com/PapirusDevelopmentTeam/papirus-folders
 
+papirus catppuccin folder colors
+https://github.com/catppuccin/papirus-folders
+
 system tools
 sudo pacman -S nwg-look wdisplays
 
-GTK and Qt Applications
+gtk and qt applications
 yay -S adw-gtk-theme qt6ct
+
+fix flatpak apps
+flatpak install org.gtk.Gtk3theme.adw-gtk3-dark
+flatpak install org.gtk.Gtk3theme.adw-gtk3
