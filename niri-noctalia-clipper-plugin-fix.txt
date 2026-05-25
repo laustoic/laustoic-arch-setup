@@ -1,0 +1,8 @@
+# check dependences
+sudo pacman -S cliphist wl-clipboard
+
+# start clipboard daemon
+wl-paste --watch cliphist store &
+
+#Niri (config.kdl):
+spawn-at-startup "wl-paste --watch cliphist store"

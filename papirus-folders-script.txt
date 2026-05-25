@@ -1,0 +1,13 @@
+install
+
+wget -qO- https://git.io/papirus-folders-install | sh
+wget -qO- https://git.io/papirus-folders-install | env PREFIX=$HOME/.local sh
+
+Show the current color and available colors for Papirus-Dark
+papirus-folders -l --theme Papirus-Dark
+
+Change color of folders to brown for Papirus-Dark
+papirus-folders -C brown --theme Papirus-Dark
+
+Revert to default color of folders for Papirus-Dark
+papirus-folders -D --theme Papirus-Dark

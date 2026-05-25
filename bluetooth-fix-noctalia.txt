@@ -1,0 +1,3 @@
+rfkill unblock bluetooth
+bluetoothctl power on
+sudo systemctl enable rfkill-unblock@bluetooth.service

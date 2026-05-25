@@ -1,0 +1,39 @@
+1. install yay
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+
+2. install zen browser
+yay -S zen-browser-bin
+
+3. install flatpak
+sudo pacman -S flatpak
+
+4. install shelly
+yay -S shelly
+
+5. install linuxtoys
+curl -fsSL https://linux.toys/install.sh | bash
+
+6. btrfs-assistant
+sudo pacman -S btrfs-assistant
+
+7. dependencies for goverlay
+sudo pacman -S vulkan-tools
+
+8. fix adwaita qt6 apps
+yay -S adwaita-qt6
+
+9. poolkit issues
+sudo pacman -S polkit-gnome
+
+10 fix gufw
+xhost +SI:localuser:$(id -un) &
+xhost +SI:localuser:root &
+
+11. fix obs frontend-tools popup
+sudo pacman -S luajit
+
+12. install vlc
+sudo pacman -S vlc vlc-plugins-all

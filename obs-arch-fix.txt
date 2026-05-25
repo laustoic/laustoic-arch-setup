@@ -1,0 +1,3 @@
+"the following obs plugins failed to load frontend-tools please update or remove these plugins"
+
+sudo pacman -S luajit 
