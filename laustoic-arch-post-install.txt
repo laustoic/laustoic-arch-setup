@@ -134,3 +134,6 @@ yay -S adw-gtk-theme qt6ct
 fix flatpak apps
 flatpak install org.gtk.Gtk3theme.adw-gtk3-dark
 flatpak install org.gtk.Gtk3theme.adw-gtk3
+
+install protonplus
+yay -S protonplus
