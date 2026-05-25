@@ -65,3 +65,18 @@ sudo usermod -aG falcond laustoic
 verify
 groups
 laustoic gamemode libvirt input wheel falcond
+
+install kitty
+sudo pacman -S kitty
+
+install fish
+sudo pacman -S fish
+
+add fish to standard shells
+echo "$(which fish)" | sudo tee -a /etc/shells
+
+set fish as your default shell
+chsh -s $(which fish)
+
+install niri
+sudo pacman -Syu niri xwayland-satellite xdg-desktop-portal-gnome xdg-desktop-portal-gtk alacritty matugen cava qt6-multimedia-ffmpeg
