@@ -100,6 +100,9 @@ snap pac + grub
 sudo pacman -S snap-pac
 yay -S snap-pac-grub
 
+update grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
 
 install niri
 sudo pacman -Syu niri xwayland-satellite xdg-desktop-portal-gnome xdg-desktop-portal-gtk alacritty matugen cava qt6-multimedia-ffmpeg
