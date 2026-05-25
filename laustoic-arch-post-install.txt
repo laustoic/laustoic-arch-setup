@@ -112,3 +112,6 @@ yay -S pfetch-rs
 
 run noctalia
 spawn-at-startup "qs" "-c" "noctalia-shell"
+
+papirus folder script
+https://github.com/PapirusDevelopmentTeam/papirus-folders
