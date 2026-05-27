@@ -140,3 +140,7 @@ yay -S protonplus
 
 fix missing gnome logout button
 gsettings set org.gnome.shell always-show-log-out true
+
+install some apps
+yay -S ente-auth-bin onlyoffice-bin
+sudo pacman -S proton-vpn-gtk-app
