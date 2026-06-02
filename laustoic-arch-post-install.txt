@@ -144,3 +144,17 @@ gsettings set org.gnome.shell always-show-log-out true
 install some apps
 yay -S ente-auth-bin onlyoffice-bin
 sudo pacman -S proton-vpn-gtk-app flameshot
+
+install virtual manager
+sudo pacman -S virt-manager qemu-desktop libvirt edk2-ovmf dnsmasq iptables-nft qemu-full
+
+setting up virtual manager
+sudo systemctl enable --now libvirtd.socket
+sudo systemctl enable --now libvirtd.service
+sudo usermod -aG libvirt $USER
+sudo systemctl restart libvirtd
+sudo virsh net-start default
+sudo virsh net-autostart default
+sudo systemctl start iptables.service
+sudo systemctl enable iptables.service
+sudo systemctl restart libvirtd.service
