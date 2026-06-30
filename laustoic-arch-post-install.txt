@@ -10,6 +10,9 @@ yay -S zen-browser-bin
 install flatpak
 sudo pacman -S flatpak
 
+thunar
+sudo pacman -S gvfs file-roller thunar-archive-plugin thunar-media-tags-plugin thunar-volman thunar-shares-plugin tumbler
+
 install shelly
 yay -S shelly
 
